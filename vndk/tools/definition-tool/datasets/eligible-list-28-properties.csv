@@ -66,6 +66,7 @@ android.hardware.cas@1.0,True,False,True,hidl_interface
 android.hardware.cas@1.0-adapter-helper,True,False,True,hidl_interface
 android.hardware.configstore-utils,True,False,True,cc_library_shared
 android.hardware.configstore@1.0,True,False,True,hidl_interface
+android.hardware.configstore@1.1,True,False,True,hidl_interface
 android.hardware.configstore@1.0-adapter-helper,True,False,True,hidl_interface
 android.hardware.confirmationui-support-lib,True,False,True,cc_library
 android.hardware.confirmationui@1.0,True,False,True,hidl_interface
@@ -269,8 +270,6 @@ libbase,True,True,True,cc_library
 libbcinfo,True,True,True,cc_library_shared
 libbinder,True,False,True,cc_library
 libblas,True,True,False,cc_library_shared
-libbufferhub,True,False,False,cc_library
-libbufferhubqueue,True,False,False,cc_library_shared
 libc++,True,True,True,cc_library_shared
 libcamera_metadata,True,False,True,cc_library_shared
 libcap,True,False,True,cc_library
@@ -293,7 +292,7 @@ libdiskconfig,True,False,True,cc_library
 libdng_sdk,False,False,True,cc_library
 libdrm,False,False,True,cc_library
 libdumpstateutil,True,False,True,cc_library_shared
-libeffectsconfig,False,False,True,cc_library_shared
+libeffectsconfig,False,False,True,cc_library
 libevent,True,False,True,cc_library
 libexif,True,False,True,cc_library_shared
 libexpat,True,False,True,cc_library
@@ -331,8 +330,8 @@ libnetutils,True,False,True,cc_library_shared
 libnl,True,False,True,cc_library
 libopus,True,False,True,cc_library_shared
 libpagemap,True,False,True,cc_library
+libpcap,False,False,True,cc_library
 libpcre2,True,False,True,cc_library
-libpdx_default_transport,True,False,False,cc_library_shared
 libperfmgr,False,False,True,cc_library
 libpiex,True,False,True,cc_library_shared
 libpng,True,False,True,cc_library
